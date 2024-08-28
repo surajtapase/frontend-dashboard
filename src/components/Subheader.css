@@ -1,0 +1,36 @@
+.subheader-container {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .subheader-container .row {
+    align-items: center;
+  }
+  
+  .subheader-container h4 {
+    margin: 0;
+    font-weight: 600;
+  }
+  
+  .subheader-container .btn {
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+  }
+  
+  .subheader-container .btn .mr-1 {
+    margin-right: 5px;
+  }
+  
+  .subheader-container .btn-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .subheader-container .custom-select {
+    margin-left: 5px;
+    border-radius: 6px;
+  }
+  

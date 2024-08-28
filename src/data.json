@@ -1,0 +1,48 @@
+{
+    "CSPM": {
+      "cloudAccounts": {
+        "total": 4,
+        "connected": 2,
+        "notConnected": 2
+      },
+      "cloudAccountRiskAssessment": {
+        "total": 9659,
+        "failed": 1159,
+        "warning": 3000,
+        "notAvailable": 1000,
+        "passed":  4500
+      }
+    },
+    "CWPP": {
+      "topNamespaceAlerts": [
+        {"name": "Namespace1", "alerts": 120},
+        {"name": "Namespace2", "alerts": 80},
+        {"name": "Namespace3", "alerts": 60},
+        {"name": "Namespace4", "alerts": 40},
+        {"name": "Namespace5", "alerts": 20}
+      ],
+      "workloadAlerts": [
+        {"name": "Critical", "count": 50},
+        {"name": "High", "count": 100},
+        {"name": "Medium", "count": 200},
+        {"name": "Low", "count": 300}
+      ]
+    },
+    "RegistryScan": {
+      "imageRiskAssessment": {
+        "totalVulnerabilities": 1470,
+        "critical": 50,
+        "high": 109,
+        "medium": 700,
+        "low": 611
+      },
+      "imageSecurityIssues": {
+        "totalImages": 2,
+        "critical": 2,
+        "high": 2,
+        "medium": 16,
+        "low": 4
+      }
+    }
+  }
+  
